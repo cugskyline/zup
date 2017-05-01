@@ -91,23 +91,24 @@
     <div class="article-entry" itemprop="articleBody">
       
         <ul>
-<li>使用工具介绍<blockquote>
-<ol>
-<li><strong>码云 Pages</strong>：码云 Pages 是一个免费的静态网页托管服务，您可以使用码云 Pages 托管博客、项目官网等静态网页。这样就不用购买服务器和域名了，如果您使用过 Github Pages 那么您会很快上手使用码云的Pages服务。这里使用码云上的Pages 而不是用Github Pages，主要原因就是在国内没有VPN的话。。。你懂得！还有就是支持国产！链接：<a href="https://git.oschina.net/" target="_blank" rel="external">https://git.oschina.net/</a></li>
-<li><strong>Hexo</strong>：Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。使用者只需要专注于写博客而不需要关注网站是如何生成的。而且还有丰富的博客主题可以选择！链接：<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">https://hexo.io/zh-cn/</a></li>
-</ol>
-</blockquote>
+<li>使用工具介绍<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">1. **码云 Pages**：码云 Pages 是一个免费的静态网页托管服务，您可以使用码云 Pages 托管博客、项目官网等静态网页。这样就不用购买服务器和域名了，如果您使用过 Github Pages 那么您会很快上手使用码云的Pages服务。这里使用码云上的Pages 而不是用Github Pages，主要原因就是在国内没有VPN的话。。。你懂得！还有就是支持国产！链接：https://git.oschina.net/</div><div class="line">2. **Hexo**：Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。使用者只需要专注于写博客而不需要关注网站是如何生成的。而且还有丰富的博客主题可以选择！链接：https://hexo.io/zh-cn/</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<h4 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h4><h5 id="Node-js安装"><a href="#Node-js安装" class="headerlink" title="Node.js安装"></a>Node.js安装</h5><blockquote>
-<p>参考：<a href="http://www.runoob.com/nodejs/nodejs-install-setup.html（ps：如果没有VPN的用户最好切换一下npm的源，不然后续的步骤可能会让你想砸电脑，安装完后，在命令窗口执行下面代码）" target="_blank" rel="external">http://www.runoob.com/nodejs/nodejs-install-setup.html（ps：如果没有VPN的用户最好切换一下npm的源，不然后续的步骤可能会让你想砸电脑，安装完后，在命令窗口执行下面代码）</a><br>npm config set registry <a href="http://registry.cnpmjs.org" target="_blank" rel="external">http://registry.cnpmjs.org</a>     #切换npm为淘宝镜像</p>
-<h5 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h5><p>参考<a href="http://www.runoob.com/git/git-install-setup.html" target="_blank" rel="external">http://www.runoob.com/git/git-install-setup.html</a></p>
-<h5 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h5></blockquote>
+<h4 id="搭建环境"><a href="#搭建环境" class="headerlink" title="搭建环境"></a>搭建环境</h4><h5 id="Node-js安装"><a href="#Node-js安装" class="headerlink" title="Node.js安装"></a>Node.js安装</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">参考：http://www.runoob.com/nodejs/nodejs-install-setup.html（ps：如果没有VPN的用户最好切换一下npm的源，不然后续的步骤可能会让你想砸电脑，安装完后，在命令窗口执行下面代码）</div><div class="line">&gt;npm config set registry http://registry.cnpmjs.org     #切换npm为淘宝镜像</div></pre></td></tr></table></figure>
+<h5 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">参考http://www.runoob.com/git/git-install-setup.html</div></pre></td></tr></table></figure>
+<h5 id="Hexo安装"><a href="#Hexo安装" class="headerlink" title="Hexo安装"></a>Hexo安装</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo-cli</div></pre></td></tr></table></figure>
+<p>安装成功后输入hexo 如果得到一些相关的帮助</p>
+<p>Hexo的常用命令说明：参考<a href="https://hexo.io/zh-cn/docs/commands.html" target="_blank" rel="external">https://hexo.io/zh-cn/docs/commands.html</a><br><a href="https://pic1.zhimg.com/90a98144c7ba399f19f5aece2838327c_b.png" target="_blank" rel="external">https://pic1.zhimg.com/90a98144c7ba399f19f5aece2838327c_b.png</a></p>
+<p>本地运行Hexo</p>
+<p>安装 Hexo 完成后，请依次执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。将<folder> 替换成项目存放的文件夹目录，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo init &lt;folder&gt;</div><div class="line">cd &lt;folder&gt;</div><div class="line">npm install</div><div class="line">hexo generate</div></pre></td></tr></table></figure></folder></p>
+<p>新建完成后，指定文件夹的目录如下：<br>需要的文件。将<folder> 替换成项目存放的文件夹目录，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">.</div><div class="line">├── .deploy #需要部署的文件</div><div class="line">├── node_modules #Hexo插件</div><div class="line">├── public #生成的静态网页文件</div><div class="line">├── scaffolds #模板</div><div class="line">├── source #博客正文和其他源文件, 404 favicon CNAME 等都应该放在这里</div><div class="line">| ├── _drafts #草稿</div><div class="line">| └── _posts #文章</div><div class="line">├── themes #主题</div><div class="line">├── _config.yml #全局配置文件</div><div class="line">└── package.json</div></pre></td></tr></table></figure></folder></p>
+<p>安装及运行服务<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">#切换到项目目录下</div><div class="line">cd &lt;folder&gt;</div><div class="line">#install before start blogging</div><div class="line">npm install</div><div class="line">#运行本地服务</div><div class="line">hexo server</div></pre></td></tr></table></figure></p>
+<p><img src="/zup/zup/2017/03/30/hexo-oschina/study.png" alt="image"></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cugskyline.oschina.io/zup/zup/2017/03/30/hexo-oschina/" data-id="cj264ze720001hk412lv092l2" class="article-share-link">Share</a>
+      <a data-url="http://cugskyline.oschina.io/zup/zup/2017/03/30/hexo-oschina/" data-id="cj2654n3e0001jq41075do42r" class="article-share-link">Share</a>
       
       
     </footer>
@@ -152,7 +153,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://cugskyline.oschina.io/zup/zup/2017/03/29/hello-world/" data-id="cj264ze6y0000hk41x84wgy8d" class="article-share-link">Share</a>
+      <a data-url="http://cugskyline.oschina.io/zup/zup/2017/03/29/hello-world/" data-id="cj2654n2v0000jq41lpfrrbob" class="article-share-link">Share</a>
       
       
     </footer>
